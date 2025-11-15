@@ -1,13 +1,15 @@
-import React from "react";
-
+import myImg from "./assets/IMG_7142.jpg";
 const App = () => {
   return (
     <div>
-      <h1 className="text-lg font-bold">hello My name is Tonna</h1>
-      <p className="text-lg font-bold text-red-500">
-        this is my first react app
-      </p>
-      <button className="text-lg bg-blue-500 p-4">click</button>
+      <div className="flex justify-center mt-8">
+        <img src={myImg} className="w-64" alt="my image" />
+      </div>
+
+      <div className="text-center mt-4">
+        <h1>ชาญกิจ วงษ์ตาดำ</h1>
+        <h1>อยู่ ม.6 แล้วววว หาผลงาน</h1>
+      </div>
     </div>
   );
 };
