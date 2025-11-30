@@ -18,7 +18,7 @@ const App = () => {
       </div>
 
       <div className="text-center mt-4">
-        <h1>ชาญกิจ วงษ์ตาดำ</h1>
+        <h1>ชาญกิจ กหฟกหฟวงษ์ตาดำ</h1>
         <h1>อยู่ ม.6 แล้วววว หาผลงาน</h1>
         <h1 className="mt-8 font-bold text-5xl">{create}</h1>
 
